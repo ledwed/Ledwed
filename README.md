@@ -1,16 +1,34 @@
-## Hi there 👋
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <title>Ledwed</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="lang.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1 data-translate="title">Ledwed</h1>
+    <nav>
+      <a href="index.html" data-translate="home">Bosh sahifa</a>
+      <a href="products.html" data-translate="products">Mahsulotlar</a>
+      <a href="cart.html" data-translate="cart">Savatcha</a>
+      <select id="language">
+        <option value="uz">UZ</option>
+        <option value="ru">RU</option>
+        <option value="en">EN</option>
+      </select>
+    </nav>
+  </header>
 
-<!--
-**ledwed/Ledwed** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+  <main>
+    <h2 data-translate="welcome">Ledwed do‘koniga xush kelibsiz!</h2>
+    <p data-translate="intro">Bizning do‘kondan arzon va sifatli mahsulotlar oling.</p>
+    <a class="btn" href="products.html" data-translate="shopNow">Mahsulotlarni ko‘rish</a>
+  </main>
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  <footer>
+    <p>© 2025 Ledwed</p>
+  </footer>
+</body>
+</html>
